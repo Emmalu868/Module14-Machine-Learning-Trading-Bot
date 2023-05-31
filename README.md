@@ -8,10 +8,9 @@ The speed of these transactions gave your firm a competitive advantage early on.
 ### SVM Model
 ![SVM_Model](https://github.com/Emmalu868/Module14-Machine-Learning-Trading-Bot/blob/main/SVM%20Model.png)
 
+The SVM Model reports the precision for -1.0 is 1.0 and for 1.0 is 0.63. The acutal returns is not as good as the trategy returns. In 2018 the actual returns is a little bit higher than strategy returns.
+
 ### Logistic Regression Model
 ![Logistic_Regression_Model](https://github.com/Emmalu868/Module14-Machine-Learning-Trading-Bot/blob/main/Logistic%20Regression%20Model.png)
 
-The SVM Model shows a gradually increase from 2016 to 2018 where strategy returns and actual returns are overlap. After 2018, actual returns are running lower than actual returns with the same trend over the time and the difference is gapping bigger. The lowest point for actual returns is 2020 at 0.8. The highest actual returns are 1.4 and strategy returns are 1.5 athe the same point in 2021
-
-The logistic regression model has the same performance before 2018 with the SVM model. In 2018 the actual returns are flactuating higher than strategy returns till mid 2018. And then strategy returns across higher than actual returns with the peak at 1.5 in the late 2020. The actual returns peak at 1.4 in 2021 post strategy-return-peak.
-Both bottom points are in 2020, the actual returns are a lot lower than strategy returns at 0.8 vs 1.0.
+The logistic regression model reports the precision for -1.0 is 0.88 which is lower than the SVM model, the score for 1.0 is 0.65 which higher than the SVM model. Actual returns perform better than the strategy returns in 2018 and 2021.
